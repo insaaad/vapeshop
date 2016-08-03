@@ -1,0 +1,153 @@
+/*!
+*  Font Awesome 4.6.1 by @davegandy - http://fontawesome.io - @fontawesome
+*  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+*/@font-face{font-family:'FontAwesome';src:url('../fonts/fontawesome-webfont.eot?v=4.6.1');src:url('../fonts/fontawesome-webfont.eot?#iefix&v=4.6.1') format('embedded-opentype'),url('../fonts/fontawesome-webfont.woff2?v=4.6.1') format('woff2'),url('../fonts/fontawesome-webfont.woff?v=4.6.1') format('woff'),url('../fonts/fontawesome-webfont.ttf?v=4.6.1') format('truetype'),url('../fonts/fontawesome-webfont.svg?v=4.6.1#fontawesomeregular') format('svg');font-weight:normal;font-style:normal}
+.fa{display:inline-block;font:normal normal normal 14px/1 FontAwesome;font-size:inherit;text-rendering:auto;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.fa-2x{font-size:2em}.fa-bars:before{content:"\f0c9"}
+
+.menu{
+    background-color: black;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-family: "ClearSansThin" !important;
+    margin-bottom: 130px;
+}
+img.logo{
+    position: absolute;
+    top: 0;
+    height: 200px;
+    margin-left: -120px;
+    z-index: 10;
+}
+.menu>div>div>div.open>a{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.menu>div>div>div>a,
+.menu>div>div>a{
+    color: dimgrey;
+}
+.menu>div>div>div>a:hover,
+.menu>div>div>a:hover{
+    color: #f1f1f1;
+    text-decoration: none;
+}
+.data{
+    display: none;
+}
+.pod-menu{
+    height: 135px;
+    background-color: #f7f7f7;
+    margin-bottom: 50px;
+    font-family: "ClearSansThin" !important;
+    position: absolute;
+    top: 50px;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+}
+.pod-menu>div>div{
+    text-align: center;
+    margin-top: -8px;
+}
+.pod-menu>div>div>a{
+    color: black;
+}
+.pod-menu>div>div>a:hover{
+    color: black;
+    text-decoration: none;
+}
+.pod-menu>div>div>a>img{
+    padding-top: 10px;
+    height: 100px;
+}
+.menu_device>div>div>div>a>img{
+    height: 100px !important;
+    margin-top: 5px;
+}
+.liquids>div>div>div:last-child{
+    margin-left: -15px;
+}
+
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .aromafix{
+        width: 150px !important;
+    }
+    
+}
+
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    /* меню */ 
+    .menu-mobile{
+        background-color: black;
+        height: 60px;
+    }
+    .menu-list{
+        position: absolute;
+        width: 104%;
+        display: none;
+        top: 60px;
+        left: 0;
+        right: 0;
+        z-index: 200000;
+        margin-left: 0px;
+    }
+    .menu-list>div{
+        text-align: center;
+        margin-left: -5px;  
+        background-color: black;
+    }
+    .menu-list>div:first-child>div>a>img{
+        margin-top: -10px;
+    }
+    
+    .menu-list>div>p{
+        display: block;
+        width: 100wv;
+        background-color: black;
+        color: white;
+        height: 30px;    
+        font-family: "ClearSansThin";
+        font-size: 20px;
+
+    }
+    .menu-list>div>p>img{
+        height: 15px;
+    }
+    .menu-list>div>div>a{
+        display: inline-block;
+        width: 100px;
+        margin: 0 auto;
+        color: white;
+    }
+    .menu-list>div>div>a>img{
+        height: 100px;
+    }
+    .logo>a>img{
+        height: 50px;
+        top: 10px;
+        left: -5px;
+        position: absolute;
+    }
+    .menu-button{
+        position: absolute;
+        top: 15px;
+        right: 15px;  
+        color: white;
+    }
+    .close-space{
+        height: 1000px;;
+        background-color: rgba(1,1,1,0) !important;
+    }
+    .liquidfix>p{
+        width: 60px !important;
+        margin-left: 20px;
+    }
+    .contact_mob>a>p{
+        width: 200px;
+        margin-left: -50px;
+    }
+    
+}

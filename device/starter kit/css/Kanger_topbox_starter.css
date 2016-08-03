@@ -1,0 +1,273 @@
+.buy{
+    border-bottom: 2px solid gray;
+    background-color: white;
+    padding-top: 10px;
+}
+.buy>div.col-md-1>a{
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "ClearSansThin";
+    position: relative;
+    right: 20px;
+    padding-bottom: 2px;
+}
+.buy>div.col-md-2{
+    font-size: 22px;
+    font-family: "ClearSansThin";
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.block1{
+    text-align: center;
+}
+
+.vapes{
+    text-align: center;
+}
+.vapes>img{
+    height: 600px;
+    margin-bottom: 20px;
+    
+}
+.sticky-content.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 100500;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.block1>p{
+    padding: 30px 100px;
+    text-align: center;
+    font-family: "ClearSansThin";
+    font-size: 120%;
+}
+.back1{
+    height: 400px;
+    background-color: #f7f7f7;
+    position: absolute;
+}
+.triangle{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0px 0 120px 500px;
+    border-color: transparent transparent white transparent;
+
+}
+.block2>div>img{
+    position: relative;
+    right: 250px;
+    top: 210px;
+    height: 350px;
+}
+.block3{
+    margin-top: 600px;
+    text-align: center;
+    border-top: 1px solid gray;
+}
+.block4{
+    background-color: #f7f7f7;
+}
+.block4>div>div>h3{
+    margin-top: 110px;
+}
+.block4>div>div>ul>li{
+    font-size: 120%;
+}
+.block4>div>div:last-child>ul>li{
+    margin-bottom: 20px;
+}
+.img_rot>img:first-child{
+    opacity: .1;
+    transform: rotate(-15deg);
+    position: absolute;
+    z-index: 1;
+    margin-left: -119px;
+}
+.img_rot>img:last-child{
+    position: relative;
+    z-index: 2;
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .buy>div.col-sm-8>h3{
+        padding-top: 5px;
+        font-size: 100%;
+    }
+    .buy>div.col-sm-1>a{
+        display: block;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 95px;
+        margin-top: 15px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-family: "ClearSansThin";
+        position: relative;
+        right: 20px;
+        padding-bottom: 2px;
+        margin: 0;
+        margin-left: -15px;
+        margin-bottom: 5px;
+    }
+    .buy>div.col-sm-3{
+        font-size: 20px;
+        font-family: "ClearSansThin";
+        padding-top: 15px;
+        padding-left: 30px;
+        margin-top: -15px;
+    }
+    .vapes>img{
+        height: 400px;
+    }
+    .block2>div:last-child{
+        text-align: center;
+    }
+    .block2>div>img{
+        position: relative;
+        right: 0px;
+        top: 0px;
+        height: 300px;
+    }
+    .block3{
+        margin-top: 50px;
+    }
+    .block3>div.row{
+        text-align: center;
+    }
+    .block3>div.row>img{
+        width: 600px;
+    }
+    .block4>div>div>h3{
+        margin-top: 10px;
+    }
+    .img_rot{
+        text-align: center;
+    }
+    .img_rot>img:first-child{
+        height: 600px;        
+    }
+    .img_rot>img:last-child{
+        height: 600px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    /* фиксированая линия */
+    .sticky-content.fixed{
+        position: fixed;
+        top: 0;
+        z-index: 100500;
+        background-color: white;
+    }
+    .buy>div.col-xs-12>h3{
+        font-size: 18px;
+        margin-top: 0px;
+
+    }
+    .buy_button>p{
+        display: block;
+        padding-left: 5px;
+        font-size: 18px;
+        font-family: "DejaVuSans";        
+    }
+    .buy_button>a{
+        height: 25px;
+        display: block;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 80px;
+        margin-top: -35px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        font-family: "ClearSansThin";
+        position: absolute;
+        right: 10px;
+        padding-bottom: 5px;
+    }
+    .block1>h1{
+        font-size: 22px;
+    }
+    .block1>p{
+        padding: 0 2px;
+        font-size: 20px;
+    }
+    .vapes>div{
+        display: inline-block !important;
+        width: 15%;
+    }
+    .vapes>div>img{
+        height: 200px;
+    }
+
+    .color{
+        height: 20px;
+        width: 20px;
+    }
+    
+    .vapes>img{
+        height: 350px;
+    }
+    .block2>div:last-child{
+        text-align: center;
+    }
+    .block2>div>img{
+        position: relative;
+        right: 0px;
+        top: 20px;
+        height: auto;
+        width: 300px;
+    }
+    .block3{
+        margin-top: 50px;
+    }
+    .block3>div.row{
+        text-align: center;
+    }
+    .block3>div.row>img{
+        width: 300px;
+    }
+    .block4>div>div>h3{
+        margin-top: 40px;
+    }
+    .img_rot{
+        text-align: center;
+    }
+    .img_rot>img:first-child{
+        opacity: .1;
+        transform: rotate(-15deg);
+        position: absolute;
+        z-index: 1;
+        margin-left: -50px;
+        height: 350px;
+    }
+    .img_rot>img:last-child{
+        position: relative;
+        z-index: 2;
+        height: 350px;
+    }
+    .block4>div>div>ul>li{
+        font-size: 100%;
+    }
+}

@@ -1,0 +1,316 @@
+.buy{
+    border-bottom: 2px solid gray;
+    background-color: white;
+    padding-top: 10px;
+}
+.buy>div.col-md-1>a{
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "ClearSansThin";
+    position: relative;
+    right: 20px;
+    padding-bottom: 2px;
+}
+.buy>div.col-md-2{
+    font-size: 22px;
+    font-family: "ClearSansThin";
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.block1{
+    text-align: center;
+}
+.vapes{
+    text-align: center;
+}
+.vapes>img{
+    height: 500px;
+    margin: 20px 0;
+    position: relative;
+    z-index: -10;
+    text-align: center;
+}
+
+.sticky-content.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 100500;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.block1>p{
+    padding: 0 100px;
+    text-align: center;
+    font-family: "ClearSansThin";
+    font-size: 120%;
+}
+.block2{
+    background-color: #f7f7f7;
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}
+.back1{
+    position: absolute;
+    height: 400px;
+    width: 800px;
+    border-style: solid;
+    border-width: 380px 800px 0 0;
+    border-color: white transparent transparent transparent;
+}
+.block2>div:nth-child(2){
+    padding-top: 40px;
+    text-align: center;
+}
+.block2>div>img{
+    height: 300px;
+    position: relative;
+    top: 130px;
+    right: 300px;
+}
+.block3{
+    border-bottom: 1px solid gray;
+    height: 460px;
+}
+.block3>div>h3{
+    margin-top: 50px;
+}
+.block3>div:first-child{
+    padding: 50px 0 0 50px;
+}
+.block3>div:last-child{
+    text-align: center;
+}
+.block3>div>img{
+    height: 450px;
+    padding: 30px 0;
+}
+.block4{
+    margin-top: 30px;
+}
+.block4>div>img{
+    height: 400px;
+    margin-top: 30px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    .block2>div>img{
+        height: 260px;
+        position: relative;
+        top: 160px;
+        right: 280px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .sticky-content.fixed{
+        position: fixed;
+        top: 0;
+        z-index: 100500;
+        left: 15px;
+        background-color: white;
+    }
+    .buy>div.col-xs-12>h3{
+        font-size: 18px;
+        margin-top: 0px;
+
+    }
+    .buy_button>p{
+        display: block;
+        padding-left: 5px;
+        font-size: 18px;
+        font-family: "DejaVuSans";        
+    }
+    .buy_button>a{
+        height: 25px;
+        display: block;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 80px;
+        margin-top: -35px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        font-family: "ClearSansThin";
+        position: absolute;
+        right: 10px;
+        padding-bottom: 5px;
+    }
+    .block1>h1{
+        font-size: 22px;
+    }
+    .block1>p{
+        padding: 0 2px;
+        font-size: 20px;
+    }
+    .buy>div.col-sm-8>h3{
+        padding-top: 5px;
+        font-size: 100%;
+    }
+    .buy>div.col-sm-1>a{
+        display: block;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 95px;
+        margin-top: 15px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-family: "ClearSansThin";
+        position: relative;
+        right: 20px;
+        padding-bottom: 2px;
+        margin: 0;
+        margin-left: -15px;
+        margin-bottom: 5px;
+    }
+    .buy>div.col-sm-3{
+        font-size: 20px;
+        font-family: "ClearSansThin";
+        padding-top: 15px;
+        padding-left: 30px;
+        margin-top: -15px;
+    }
+    .vapes>img{
+        height: 400px !important;
+    }
+    .back1{
+        height: 300px;
+        width: 600px;
+        border-width: 295px 600px 0 0;
+        
+    }
+    .block2{
+        height: 450px;
+        overflow-x: hidden;
+    }
+    .block2>div:nth-child(2){
+        padding-top: 20px;
+        text-align: center;
+        position: relative;
+        left: -165px;
+    }
+    .block2>div>img{
+        height: 250px;
+        position: relative;
+        top: 25px;
+        right: -7px;
+    }
+    .block3>div{
+        display: inline-block;
+        width: 49%;
+    }
+    .block3>div:first-child{
+        padding: 0px;
+        margin-top: -20px;
+    }
+    .block3>div:first-child{
+        position: relative;
+        top: 60px;
+        left: 20px;
+    }
+    .block3>div:last-child{
+        text-align: right;
+    }
+    .block4{
+        text-align: center;
+    }
+    .block4>div>img{
+        width: 550px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){
+    /* фиксированая линия */
+    .sticky-content.fixed{
+        position: fixed;
+        top: 0;
+        z-index: 100500;
+        left: 15px;
+        background-color: white;
+    }
+    .buy>div.col-xs-12>h3{
+        font-size: 18px;
+        margin-top: 0px;
+
+    }
+    .buy_button>p{
+        display: block;
+        padding-left: 5px;
+        font-size: 18px;
+        font-family: "DejaVuSans";        
+    }
+    .buy_button>a{
+        height: 25px;
+        display: block;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 80px;
+        margin-top: -35px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        font-family: "ClearSansThin";
+        position: absolute;
+        right: 10px;
+        padding-bottom: 5px;
+    }
+    .block1>h1{
+        font-size: 22px;
+    }
+    .block1>p{
+        padding: 0 2px;
+        font-size: 20px;
+    }
+    
+    .vapes>img{
+        height: 300px;
+    }
+    .block2{
+        margin-top: 10px;
+        height: auto;
+        background-color: white;
+    }
+    .back1{
+        display: none;
+    }
+    .block2>div{
+        text-align: center;
+    }
+    .block2>div>img{
+        height: auto !important;
+        width: 118% !important;
+        position: relative;
+        top: 25px;
+        right: 0px;
+    }
+    
+    .block3{
+        border-bottom: 1px solid gray;
+        height: auto;
+    }
+    .block3>div>h3{
+        margin-top: 50px;
+    }
+    .block3>div:first-child{
+        padding: 50px 0 0 0px;
+    }
+    .block4>div>img{
+        width: 100%;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,182 @@
+
+
+#myCarousel{
+    height: 500px;
+    
+}
+.carousel{
+    margin-top: 200px;
+}
+.carousel-undicators{
+    margin-top: 
+}
+.carousel-inner{
+    margin-bottom: 100px;
+}
+.carousel-inner>div.item>div.container>div.col-md-8{
+    padding: 0 100px 0 100px !important;
+}
+.carousel-inner>div.item>div.container>div.col-md-8>div.row{
+    margin-top: 40px;
+}
+.carousel-inner>div.item>div.container>div.col-md-8>div{
+    text-align: center;
+    margin-top: 40px;
+}
+.carousel-inner>div.item>div.container>div.col-md-8>div>a{
+    font-size: 120%;
+    padding: 10px 25px 5px 0;
+    z-index: 20;
+    position: relative;
+}
+.carousel-inner>div.item>div.container>div.col-md-8>div>img{
+    height: 20px;
+    position: relative;
+    top: -24px;
+    left: 40px;
+    z-index: -10;
+}
+.carousel-inner>div.item>div.container>div.col-md-4{
+    margin-left: -20px;
+}
+.carousel-control{
+    line-height: 350px;
+}
+.carousel-control>img{
+    height: 80px;
+}
+
+.advantage{
+    height: 100px;
+    color: black;
+    margin-bottom: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.advantage>div{
+    border-left: 1px solid whitesmoke;
+    border-right: 1px solid whitesmoke;
+}
+.advantage>div:first-child{
+    border-left: 1px solid white;
+}
+.advantage>div:last-child{
+    border-right: 1px solid white;
+}
+.advantage>div>img{
+    height: 70px;
+}
+.advantage>div>p{
+    line-height: 18px;
+}
+.hr-adv{
+    margin: -30px 0 30px 0; 
+}
+.about{
+    margin-bottom: 50px;
+}
+.marg40{
+    margin-top: 40px;
+}
+.about>div>h3{
+    margin-top: -10px;
+}
+.about>div>div>div{
+    text-align: left;
+    float: left;
+}
+.about>div>div>div>img{
+    height: 50px;
+    position: relative;
+    top: 15px;
+}
+.random{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.random>div{
+    text-align: center;
+}
+.random>div>a>img{
+    height: 200px;
+}
+.random>div>a{
+    color: black;
+}
+.random>div>a:hover{
+    color: #29a0ea;
+    text-decoration: none;
+}
+.random>div>a>p{
+    font-size: 110%;
+    margin-top: 20px;
+}
+.random>div>h4{
+    margin-top: -10px;
+}
+.contact>div>div>div{
+    padding: 10px 40px 10px 20px;
+}
+
+
+
+
+footer{
+    height: 200px;
+    background-color: #f7f7f7;
+}
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

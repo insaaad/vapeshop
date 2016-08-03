@@ -1,0 +1,433 @@
+.buy{
+    border-bottom: 2px solid gray;
+    background-color: white;
+    padding-top: 10px;
+}
+.buy>div.col-md-1>a{
+    display: block;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 100px;
+    margin-top: 15px;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: "ClearSansThin";
+    position: relative;
+    right: 20px;
+    padding-bottom: 2px;
+}
+.buy>div.col-md-2{
+    font-size: 22px;
+    font-family: "ClearSansThin";
+    padding-top: 15px;
+    padding-left: 30px;
+}
+.block1{
+    text-align: center;
+}
+.vapes>div{
+    text-align: center;
+}
+.vapes>div>img{
+    height: 500px;
+    margin: 20px 0;
+    position: relative;
+    z-index: -10;
+    text-align: center;
+}
+.img1{
+    animation: vapeslide1 2s 1 linear; 
+}
+.img2{
+    animation: vapeslide2 2s 1 linear; 
+}
+.img3{
+    animation: vapeslide3 2s 1 linear; 
+}
+.img4{
+    animation: vapeslide4 2s 1 linear; 
+}
+.img5{
+    animation: vapeslide5 2s 1 linear; 
+}
+@keyframes vapeslide1 {
+    from {top: -100px;}
+    50% {top: -50px;}
+    to {top: 0px;}
+}
+@keyframes vapeslide2 {
+    from {top: -150px;}
+    50% {top: -75px;}
+    to {top: 0px;}
+}
+@keyframes vapeslide3 {
+    from {top: -200px;}
+    50% {top: -100px;}
+    to {top: 0px;}
+}
+@keyframes vapeslide4 {
+    from {top: -250px;}
+    50% {top: -125px;}
+    to {top: 0px;}
+}
+@keyframes vapeslide5 {
+    from {top: -300px;}
+    50% {top: -150px;}
+    to {top: 0px;}
+}
+.color{
+    height: 50px;
+    width: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: ghostwhite;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    
+}
+.sticky-content.fixed{
+    position: fixed;
+    top: 0;
+    z-index: 100500;
+    left: 0;
+    right: 0;
+    background-color: white;
+}
+.block1>p{
+    padding: 0 100px;
+    text-align: center;
+    font-family: "ClearSansThin";
+    font-size: 120%;
+}
+
+.block2>ul>li{
+    font-size: 120%;
+    font-family: "ClearSansThin";
+}
+.block2>img{
+    position: relative;
+    left: 350px;
+    top: -250px;
+    
+}
+.block3{
+    margin-top: -20px;
+    margin-bottom: -20px;
+}
+.block3>div:first-child>div:first-child{
+    padding: 115px 0 115px 10px;
+    background: rgba(226,226,226,1);
+    background: -moz-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(242,242,242,1) 73%, rgba(255,255,255,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(226,226,226,1)), color-stop(73%, rgba(242,242,242,1)), color-stop(100%, rgba(255,255,255,1)));
+    background: -webkit-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(242,242,242,1) 73%, rgba(255,255,255,1) 100%);
+    background: -o-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(242,242,242,1) 73%, rgba(255,255,255,1) 100%);
+    background: -ms-linear-gradient(left, rgba(226,226,226,1) 0%, rgba(242,242,242,1) 73%, rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(226,226,226,1) 0%, rgba(242,242,242,1) 73%, rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#ffffff', GradientType=1 );
+}
+.block3>div:last-child>div:first-child{
+    background: rgba(255,255,255,1);
+    background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 27%, rgba(226,226,226,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(27%, rgba(242,242,242,1)), color-stop(100%, rgba(226,226,226,1)));
+    background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 27%, rgba(226,226,226,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 27%, rgba(226,226,226,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 27%, rgba(226,226,226,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(242,242,242,1) 27%, rgba(226,226,226,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e2e2e2', GradientType=1 );
+    padding: 115px 0 115px 10px;
+}
+.block3>div:first-child>div:last-child>img{
+    height: 500px;
+    
+}
+.block3>div:last-child>div:last-child>img{
+    height: 300px;
+    margin-top: 50px;
+}
+.block3>div>div:last-child{
+    text-align: center;
+}
+.block4{
+    text-align: center;
+}
+.block4>p{
+    font-size: 120%;
+    padding: 0 20px;
+}
+.details2{
+    margin-top: 50px;
+}
+
+/*animated text*/
+.details_1{
+    margin-top: -280px;
+    text-align: center;
+}
+/*text_1*/
+.text_1_1,.text_1_2,.text_1_3,.text_1_4,.text_1_5,.text_1_6{
+    display: inline-block;
+    width: 100px;
+    font-size: 120%;
+    position: absolute; 
+}
+.text_1_1{
+    margin-top: 548px;
+    margin-left: -786px;
+}
+.text_1_2{
+    margin-top: 552px;
+    margin-left: -687px;
+    width: 250px;
+}
+.text_1_3{
+    margin-top: 369px;
+    margin-left: -476px;
+    width: 180px;
+}
+.text_1_4{
+    margin-top: 367px;
+    margin-left: -369px;
+    width: 200px;
+}
+.text_1_5{
+    margin-top: 83px;
+    margin-left: -369px;
+    width: 200px;
+}
+.text_1_6{
+    margin-top: 33px;
+    margin-left: -235px;
+    width: 200px;
+}
+.polosa{
+    height: 50px;
+    border-right: 2px solid gray;
+    margin: 0 auto;
+    width: 1px;    
+}
+.polosa2{
+    height: 100px;
+    border-right: 2px solid gray;
+    margin: 0 auto;
+    width: 1px;    
+}
+.polosa3{
+    height: 180px;
+    border-right: 2px solid gray;
+    margin: 0 auto;
+    width: 1px;    
+}
+
+/*text_2*/
+.img_2{
+    height: 450px;
+    margin-bottom: 20px;
+}
+.text_2_1,.text_2_2,.text_2_3,.text_2_4,.text_2_5,.text_2_6{
+    display: inline-block;
+    width: 100px;
+    font-size: 120%;
+    position: absolute; 
+}
+.text_2_1{
+    margin-top: 380px;
+    margin-left: -820px;
+}
+.text_2_2{
+    margin-top: 330px;
+    margin-left: -660px;
+    
+}
+.text_2_3{
+    margin-top: 295px;
+    margin-left: -580px;
+    width: 200px !important;
+}
+.text_2_4{
+    margin-top: 250px;
+    margin-left: -430px;
+    width: 150px !important;
+}
+.text_2_5{
+    margin-top: 20px;
+    margin-left: -330px;
+}
+.text_2_6{
+    margin-top: 200px;
+    margin-left: -200px;
+    width: 200px !important;
+}
+.block4>div:last-child{
+    margin-top: 50px;
+    font-size: 110%;
+}
+.block4>div:last-child>div>img{
+    height: 220px;
+}
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+    
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .buy>div.col-sm-8>h3{
+        padding-top: 5px;
+        font-size: 100%;
+    }
+    .buy>div.col-sm-1>a{
+        display: block;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        border-radius: 10px;
+        border: 1px solid black;
+        width: 95px;
+        margin-top: 15px;
+        text-align: center;
+        color: black;
+        font-size: 18px;
+        font-family: "ClearSansThin";
+        position: relative;
+        right: 20px;
+        padding-bottom: 2px;
+        margin: 0;
+        margin-left: -15px;
+        margin-bottom: 5px;
+    }
+    .buy>div.col-sm-3{
+        font-size: 20px;
+        font-family: "ClearSansThin";
+        padding-top: 15px;
+        padding-left: 30px;
+        margin-top: -15px;
+    }
+    .block2>div>img{
+        height: 500px !important;
+        display: block;
+        /position: static;
+        margin: 0 auto;
+    }
+    .details2_mob>img{
+        height: 400px !important;
+        margin-left: 0px !important;
+        margin-top: 20px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 991px){
+    
+
+    /* фиксированая линия */
+    .sticky-content.fixed{
+        position: fixed;
+        top: 0;
+        z-index: 100500;
+        left: 15px;
+        background-color: white;
+    }
+    .buy>div.col-xs-12>h3{
+        font-size: 18px;
+        margin-top: 0px;
+
+    }
+    .buy_button>p{
+        display: block;
+        padding-left: 5px;
+        font-size: 18px;
+        font-family: "DejaVuSans";        
+    }
+    .buy_button>a{
+        height: 25px;
+        display: block;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        border-radius: 8px;
+        border: 1px solid black;
+        width: 80px;
+        margin-top: -35px;
+        text-align: center;
+        color: black;
+        font-size: 16px;
+        font-family: "ClearSansThin";
+        position: absolute;
+        right: 10px;
+        padding-bottom: 5px;
+    }
+    .block1>h1{
+        font-size: 22px;
+    }
+    .block1>p{
+        padding: 0 2px;
+        font-size: 20px;
+    }
+    .vapes>div{
+        display: inline-block !important;
+        width: 15%;
+    }
+    .vapes>div>img{
+        height: 200px;
+    }
+
+    .color{
+        height: 20px;
+        width: 20px;
+    }
+    .block2{
+        margin: 0;
+    }
+    .block2>div>img{
+        height: 250px;
+        display: block;
+        margin: 0 auto;
+    }
+    .block2>ul>li{
+        font-size: 100%;
+        padding: 0;
+    }
+    .block3{
+        margin-top: -20px;
+        margin-bottom: -20px;
+    }
+    .block3>div:first-child>div:first-child{
+        padding: 20px 0 20px 10px;
+        background: white;
+        
+    }
+    .block3>div:last-child>div:first-child{
+        background: white;
+        padding: 20px 0 20px 10px;
+    }
+    .block3>div:first-child>div:last-child>img{
+        height: 400px;
+
+    }
+    .block3>div:last-child>div:last-child>img{
+        height: 200px;
+        margin-top: 0px;
+        margin-bottom: 20px;
+    }
+    .block3>div>div:last-child{
+        text-align: center;
+    }
+    .block4>h3{
+        text-align: center;
+        padding: 0;
+    }
+    .block4>p{
+        text-align: center;
+        padding: 0px;
+        font-size: 100%;
+    }
+    .details2_mob{
+        text-align: center;
+    }
+    .details2_mob>img{
+        height: 200px;
+        margin-left: -10px;
+    }
+    .block4>div:last-child>div{
+        text-align: center;
+    }
+    .block4>div:last-child>div>img{
+        height: 150px;
+    }
