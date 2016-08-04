@@ -1,11 +1,12 @@
 
-body{
-    overflow-x: hidden;
+body,
+main{
+    overflow-x: hidden !important;
     margin: 0;
-    position: fixed;
-    height: 100%;
-    overflow-y: scroll;
+    color: black;
+    position: relative;
     width: 100%;
+}
 }
 a,
 a:hover{
