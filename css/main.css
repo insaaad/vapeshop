@@ -1,8 +1,10 @@
 
 body{
-    position: fixed;
     overflow-x: hidden;
     margin: 0;
+    color: black;
+    position: relative;
+    width: 100%;
 }
 a,
 a:hover{
